@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "etrade-trading": {
+      "command": "C:\\Cursor-coding\\algotrading\\etrade_python_client\\venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Cursor-coding\\algotrading\\etrade_python_client\\mcp_server\\server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "C:\\Cursor-coding\\algotrading\\etrade_python_client"
+      }
+    }
+  }
+}

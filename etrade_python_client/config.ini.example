@@ -1,0 +1,24 @@
+[DEFAULT]
+CONSUMER_KEY = your_consumer_key_here
+CONSUMER_SECRET = your_consumer_secret_here
+SANDBOX_BASE_URL=https://apisb.etrade.com
+PROD_BASE_URL=https://api.etrade.com
+
+[OPTIONS_CHAIN]
+# Data source: "ETRADE" or "CBOE" or "AUTO" (tries E*TRADE first, falls back to CBOE)
+DATA_SOURCE = AUTO
+
+[CBOE]
+# CBOE API endpoint (if using CBOE)
+API_URL = https://www.cboe.com
+# CBOE may require API key if they have premium access
+API_KEY = 
+
+
+
+
+
+
+
+
+
